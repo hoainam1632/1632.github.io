@@ -1,0 +1,30 @@
+
+#banner-img img{
+    height: 100%;
+    opacity: 0.9;
+}
+#banner-img div{
+    transition: 0.5s all;
+    position: absolute;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    text-shadow: 2px 2px black;
+}
+#poster-name{
+    bottom: 0;
+    left: 0;
+}
+#poster-chapter{
+    top: 0;
+    left: 0;
+}
+#banner-img:hover img{
+    opacity: 0.4;
+}
+#banner-img:hover #poster-name{
+    bottom: 245px;
+}
+#banner-img:hover #poster-chapter{
+    top: 100px;
+}

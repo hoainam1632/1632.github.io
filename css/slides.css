@@ -1,0 +1,36 @@
+#slides{
+    display: flex;
+    transition: 1s all;
+    background-color: black;
+}
+.slide{
+    object-fit: fill;
+    width: 606px;
+    height: 350px;
+    z-index: 0;
+}
+#slide-img:hover{
+    opacity: 0.4;
+}
+#slides-container i:hover {
+    color: black;
+}
+#slides-container i{
+    position: absolute;
+    background:content-box;
+    border: none;
+    top: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 25px;
+    color: white;
+    opacity: 0.7;
+    cursor: pointer;
+}
+#slides-container #btn-next{
+    right: 0px;
+    z-index: 1;
+}
+#slides-container #btn-prev{
+    left: 0px;
+}

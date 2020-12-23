@@ -1,0 +1,51 @@
+#nav-bar ul{
+    background-color: orange;
+}
+#nav-bar ul li{
+    display: inline-table;
+    width: 120px;
+    height: 100%;
+    line-height: 60px;
+    list-style: none;  
+    position: relative;
+    border-right: 1px black solid;
+}
+#nav-bar ul li a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    text-align: center;
+    
+}
+#nav-bar ul li a:hover{
+     color: white;
+     background-color: darkgray;
+}
+#nav-bar #txt-search{
+    margin-top: 0.7%;
+    margin-left: 5px;
+    border-radius: 5px;
+    width: 15%;
+    height: 55%;
+}
+#nav-bar #icon-search{
+    margin-left: -20px;
+    margin-top: 1.5%;
+    margin-right: 10px;
+}
+#list-nav-bar li > #sub-nav{
+    display: none;
+    position: absolute;
+}
+#list-nav-bar #sub-nav li{
+    border-right: none;
+    border-top: 1px black solid;
+}
+#list-nav-bar li:hover #sub-nav{
+    display: block;
+}
+#nav-bar #logo{
+    width: 50px;
+    height: 50px;
+    margin-top: 5px;
+}

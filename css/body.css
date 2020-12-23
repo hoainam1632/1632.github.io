@@ -1,0 +1,72 @@
+#list{
+ padding: 0 6em;
+ height: 600px;
+}
+#info{
+    margin-left: 20px;
+    margin-bottom: 15px;
+    float: left;
+    width: 200px;
+    height: 380px;
+    text-align: center;
+   
+}
+#info, #img-info, #img-info img{
+    border-radius: 15px;
+}
+#name-info{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+}
+#chapter-info{
+    font-size: 15px;
+    font-weight: 500;
+}
+#img-info{
+    background-color: black;
+    height: 310px;
+    border-bottom:1px black solid ;
+}
+#img-info img{
+    transition: 0.2s all;
+    width: 200px;
+    height: 100%;
+}
+#title{
+    position: relative;
+    display: flex;
+    float: inline-end;
+    border-bottom: 5px green double;
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+#title h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 0px 8px;
+    font-size: 25px;
+    color: rgb(26, 74, 235);
+    
+}
+#info:hover img{
+    opacity: 0.4;
+}
+#icon-body{
+    font-size: 30px;
+     color: red;
+     margin-left: 10px;
+}
+#btn-xemthem{
+    position: absolute;
+    top: 0;
+    right: 20px;
+    text-decoration: none;
+    background-color: tomato;
+    height: 30px;
+    width: 90px;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    line-height: 30px;
+}
