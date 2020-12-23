@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manga World</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/navBar.css">
+    <link rel="stylesheet" href="./css/slides.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/body.css">
+    <!--BOOTRAP-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+</head>
+<body>
+      <!-- NAV BAR-->
+    <div id="nav-bar">
+        <img id="logo" src="https://w7.pngwing.com/pngs/768/128/png-transparent-fairy-tail-logo-manga-anime-digital-purple-circle-purple-emblem-violet.png" alt="">
+        <input id="txt-search" type="text" name="txtSearch" placeholder="Nhap ten truyen">
+        <i id="icon-search" class="fa fa-search"></i>
+        <ul id="list-nav-bar">
+           <li><a href="" id="font">The Loai</a>
+                <ul id="sub-nav">
+                    <li><a href="">ACTION</a></li>
+                    <li><a href="">FUNNY</a></li>
+                    <li><a href="">ROMANTIC</a></li>
+                    <li><a href="">FANTASY</a></li>
+                </ul>
+           </li>
+           <li><a href="">Theo Mua</a>
+            <ul id="sub-nav">
+                <li><a href="">2020</a></li>
+                <li><a href="">2019</a></li>
+                <li><a href="">2018</a></li>
+                <li><a href="">2017</a></li>
+            </ul>
+           </li>
+           <li><a href="">Doc Nhieu Nhat</a></li>
+           <li><a href="">Thong Tin</a></li>
+        </ul>
+    </div>
+    <!-- // NAV BAR-->
+
+       <!-- HEADER -->
+    <div id="header">
+        <!-- BANNER IMG-->
+        <div id="banner-img">
+            <img src="https://i.pinimg.com/originals/a6/6d/93/a66d93b32698ef7d7f6aea369ab4d196.jpg" alt="">
+            <div id="poster-name">
+                Yaiba kimetsu
+            </div>
+            <div id="poster-chapter">
+                Chapter: 21
+            </div>
+            <div id="poster-info">
+
+            </div>
+        </div>
+        <!--// BANNER IMG-->
+
+        <!--SLIDER-->
+        <div id="slides-container">
+            <i class="fa fa-chevron-right" id="btn-next" onclick="next()"></i>
+             <div id="slides">
+                 <div id="slide-img" onmouseover="slideHover()" onmouseout="slideHoverOut()">
+                 <img src="https://cdn3.dualshockers.com/wp-content/uploads/2020/11/Genshin-Impact-Zhongli-Xinyan-gacha-banner.jpg" alt="" class = "slide">
+                </div>
+                <div id="slide-img" onmouseover="slideHover()" onmouseout="slideHoverOut()">
+                 <img src="https://anistack.com/filemanager/uploads/venti-banner.jpg" alt="" class = "slide">
+                </div>
+                <div id="slide-img" onmouseover="slideHover()" onmouseout="slideHoverOut()">
+                 <img src="https://www.siliconera.com/wp-content/uploads/2020/10/genshin-impact-klee-710x350.jpg" alt="" class = "slide">
+                </div>
+            </div>
+            <i class="fa fa-chevron-left" id="btn-prev" onclick="prev()"></i>
+        </div>
+           <!--// SLIDER-->
+        <div id="banner-img">
+            <img src="https://webimg.secondhandapp.com/w-i-mgl/5c8ff6df4ba16b1cb8f4cc4e" alt="">
+            <div id="poster-name">
+                Re:zero
+            </div>
+            <div id="poster-chapter">
+                Chapter: 62
+            </div>
+            <div id="poster-info">
+
+            </div>
+        </div>
+    </div>
+    <!-- // HEADER -->
+
+    <!-- BODY -->
+        <div id="body">
+            <!--list 1-->
+            <div id="title">
+                <i class="far fa-calendar-alt" id="icon-body"></i>
+                <h1>Truyen Moi Cap Nhat</h1>
+                <a href="#" id="btn-xemthem">Xem them</a>
+            </div>
+            <div id="list">
+                <div id="info">
+                    <div id="img-info">
+                        <img src="https://i.pinimg.com/originals/a6/6d/93/a66d93b32698ef7d7f6aea369ab4d196.jpg" alt="">
+                    </div>
+                    <div id="name-info">
+                        Yaiba Kimetsu Truyen Moi Cap Nhat
+                    </div>
+                    <div id="chapter-info">
+                        Chapter: 21
+                    </div>
+                </div>
+                <div id="info">
+                    <div id="img-info">
+                        <img src="https://i.pinimg.com/originals/34/5c/31/345c3185d85e7c67931a44d542ca9760.jpg" alt="">
+                    </div>
+                    <div id="name-info">
+                        Yaiba Kimetsu 
+                    </div>
+                    <div id="chapter-info">
+                        Chapter: 21
+                    </div>
+                </div>
+                <div id="info">
+                    <div id="img-info">
+                        <img src="https://m.media-amazon.com/images/M/MV5BN2E2OTgzODktMjBhYy00MjJjLWI0OTgtNGYxOGNhMWMxOWE4XkEyXkFqcGdeQXVyMzgxODM4NjM@._V1_UY1200_CR109,0,630,1200_AL_.jpg" alt="">
+                    </div>
+                    <div id="name-info">
+                        Yaiba Kimetsu 
+                    </div>
+                    <div id="chapter-info">
+                        Chapter: 21
+                    </div>
+                </div>
+                <div id="info">
+                    <div id="img-info">
+                        <img src="https://cdn.shopify.com/s/files/1/0747/3829/products/mL0215.jpg?v=1571444773" alt="">
+                    </div>
+                    <div id="name-info">
+                        Yaiba Kimetsu 
+                    </div>
+                    <div id="chapter-info">
+                        Chapter: 21
+                    </div>
+                </div>
+                <div id="info">
+                    <div id="img-info">
+                        <img src="https://i.pinimg.com/originals/a6/6d/93/a66d93b32698ef7d7f6aea369ab4d196.jpg" alt="">
+                    </div>
+                    <div id="name-info">
+                        Yaiba Kimetsu 
+                    </div>
+                    <div id="chapter-info">
+                        Chapter: 21
+                    </div>
+                </div>
+                <div id="info">
+                    <div id="img-info">
+                        <img src="https://i.pinimg.com/originals/a6/6d/93/a66d93b32698ef7d7f6aea369ab4d196.jpg" alt="">
+                    </div>
+                    <div id="name-info">
+                        Yaiba Kimetsu 
+                    </div>
+                    <div id="chapter-info">
+                        Chapter: 21
+                    </div>
+                </div>
+                <div id="info">
+                    <div id="img-info">
+                        <img src="https://i.pinimg.com/originals/a6/6d/93/a66d93b32698ef7d7f6aea369ab4d196.jpg" alt="">
+                    </div>
+                    <div id="name-info">
+                        Yaiba Kimetsu 
+                    </div>
+                    <div id="chapter-info">
+                        Chapter: 21
+                    </div>
+                </div>
+                <div id="info">
+                    <div id="img-info">
+                        <img src="https://i.pinimg.com/originals/a6/6d/93/a66d93b32698ef7d7f6aea369ab4d196.jpg" alt="">
+                    </div>
+                    <div id="name-info">
+                        Yaiba Kimetsu 
+                    </div>
+                    <div id="chapter-info">
+                        Chapter: 21
+                    </div>
+                </div>
+            </div>
+
+            <!--list 2-->
+            <div id="title">
+                <i class="fab fa-hotjar" id="icon-body"></i>
+                <h1>Truyen doc nhieu nhat</h1>
+                <a href="#" id="btn-xemthem">Xem them</a>
+            </div>
+            <div id="list">
+                <div id="info">
+                    <div id="img-info">
+                        <img src="https://i.pinimg.com/originals/a6/6d/93/a66d93b32698ef7d7f6aea369ab4d196.jpg" alt="">
+                    </div>
+                    <div id="name-info">
+                        Yaiba Kimetsu 
+                    </div>
+                    <div id="chapter-info">
+                        Chapter: 21
+                    </div>
+                </div>
+                <div id="info">
+                    <div id="img-info">
+                        <img src="https://i.pinimg.com/originals/a6/6d/93/a66d93b32698ef7d7f6aea369ab4d196.jpg" alt="">
+                    </div>
+                    <div id="name-info">
+                        Yaiba Kimetsu 
+                    </div>
+                    <div id="chapter-info">
+                        Chapter: 21
+                    </div>
+                </div>
+                <div id="info">
+                    <div id="img-info">
+                        <img src="https://i.pinimg.com/originals/a6/6d/93/a66d93b32698ef7d7f6aea369ab4d196.jpg" alt="">
+                    </div>
+                    <div id="name-info">
+                        Yaiba Kimetsu 
+                    </div>
+                    <div id="chapter-info">
+                        Chapter: 21
+                    </div>
+                </div>
+                <div id="info">
+                    <div id="img-info">
+                        <img src="https://i.pinimg.com/originals/a6/6d/93/a66d93b32698ef7d7f6aea369ab4d196.jpg" alt="">
+                    </div>
+                    <div id="name-info">
+                        Yaiba Kimetsu 
+                    </div>
+                    <div id="chapter-info">
+                        Chapter: 21
+                    </div>
+                </div>
+                <div id="info">
+                    <div id="img-info">
+                        <img src="https://i.pinimg.com/originals/a6/6d/93/a66d93b32698ef7d7f6aea369ab4d196.jpg" alt="">
+                    </div>
+                    <div id="name-info">
+                        Yaiba Kimetsu 
+                    </div>
+                    <div id="chapter-info">
+                        Chapter: 21
+                    </div>
+                </div>
+                <div id="info">
+                    <div id="img-info">
+                        <img src="https://i.pinimg.com/originals/a6/6d/93/a66d93b32698ef7d7f6aea369ab4d196.jpg" alt="">
+                    </div>
+                    <div id="name-info">
+                        Yaiba Kimetsu 
+                    </div>
+                    <div id="chapter-info">
+                        Chapter: 21
+                    </div>
+                </div>
+                <div id="info">
+                    <div id="img-info">
+                        <img src="https://i.pinimg.com/originals/a6/6d/93/a66d93b32698ef7d7f6aea369ab4d196.jpg" alt="">
+                    </div>
+                    <div id="name-info">
+                        Yaiba Kimetsu 
+                    </div>
+                    <div id="chapter-info">
+                        Chapter: 21
+                    </div>
+                </div>
+                <div id="info">
+                    <div id="img-info">
+                        <img src="https://i.pinimg.com/originals/a6/6d/93/a66d93b32698ef7d7f6aea369ab4d196.jpg" alt="">
+                    </div>
+                    <div id="name-info">
+                        Yaiba Kimetsu 
+                    </div>
+                    <div id="chapter-info">
+                        Chapter: 21
+                    </div>
+                </div>
+            </div>
+
+               <!--list 3-->
+               <div id="title">
+                <i class="far fa-star" id="icon-body"></i>
+                <h1>Truyen hot nhat</h1>
+                <a href="#" id="btn-xemthem">Xem them</a>
+            </div>
+            <div id="list">
+                <div id="info">
+                    <div id="img-info">
+                        <img src="https://i.pinimg.com/originals/a6/6d/93/a66d93b32698ef7d7f6aea369ab4d196.jpg" alt="">
+                    </div>
+                    <div id="name-info">
+                        Yaiba Kimetsu 
+                    </div>
+                    <div id="chapter-info">
+                        Chapter: 21
+                    </div>
+                </div>
+                <div id="info">
+                    <div id="img-info">
+                        <img src="https://i.pinimg.com/originals/a6/6d/93/a66d93b32698ef7d7f6aea369ab4d196.jpg" alt="">
+                    </div>
+                    <div id="name-info">
+                        Yaiba Kimetsu 
+                    </div>
+                    <div id="chapter-info">
+                        Chapter: 21
+                    </div>
+                </div>
+                <div id="info">
+                    <div id="img-info">
+                        <img src="https://i.pinimg.com/originals/a6/6d/93/a66d93b32698ef7d7f6aea369ab4d196.jpg" alt="">
+                    </div>
+                    <div id="name-info">
+                        Yaiba Kimetsu 
+                    </div>
+                    <div id="chapter-info">
+                        Chapter: 21
+                    </div>
+                </div>
+                <div id="info">
+                    <div id="img-info">
+                        <img src="https://i.pinimg.com/originals/a6/6d/93/a66d93b32698ef7d7f6aea369ab4d196.jpg" alt="">
+                    </div>
+                    <div id="name-info">
+                        Yaiba Kimetsu 
+                    </div>
+                    <div id="chapter-info">
+                        Chapter: 21
+                    </div>
+                </div>
+                <div id="info">
+                    <div id="img-info">
+                        <img src="https://i.pinimg.com/originals/a6/6d/93/a66d93b32698ef7d7f6aea369ab4d196.jpg" alt="">
+                    </div>
+                    <div id="name-info">
+                        Yaiba Kimetsu 
+                    </div>
+                    <div id="chapter-info">
+                        Chapter: 21
+                    </div>
+                </div>
+                <div id="info">
+                    <div id="img-info">
+                        <img src="https://i.pinimg.com/originals/a6/6d/93/a66d93b32698ef7d7f6aea369ab4d196.jpg" alt="">
+                    </div>
+                    <div id="name-info">
+                        Yaiba Kimetsu 
+                    </div>
+                    <div id="chapter-info">
+                        Chapter: 21
+                    </div>
+                </div>
+                <div id="info">
+                    <div id="img-info">
+                        <img src="https://i.pinimg.com/originals/a6/6d/93/a66d93b32698ef7d7f6aea369ab4d196.jpg" alt="">
+                    </div>
+                    <div id="name-info">
+                        Yaiba Kimetsu 
+                    </div>
+                    <div id="chapter-info">
+                        Chapter: 21
+                    </div>
+                </div>
+                <div id="info">
+                    <div id="img-info">
+                        <img src="https://i.pinimg.com/originals/a6/6d/93/a66d93b32698ef7d7f6aea369ab4d196.jpg" alt="">
+                    </div>
+                    <div id="name-info">
+                        Yaiba Kimetsu 
+                    </div>
+                    <div id="chapter-info">
+                        Chapter: 21
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!-- // BODY -->
+
+    <!-- FOOTER -->
+    <div id="footer">
+        <div id="bg-img"></div>
+        <div id="infor-footer" style="color: white;">
+        <img id="logo" width="50px" src="https://w7.pngwing.com/pngs/768/128/png-transparent-fairy-tail-logo-manga-anime-digital-purple-circle-purple-emblem-violet.png" alt="">
+        MangaWorld.com<br/>
+        Design by: Nguyễn Hoài Nam<br/> 
+        Copyright &copy; 2020 Manga-world
+      </div>
+    </div>
+    <!-- // FOOTER -->
+    <script src="js/slide.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+</body>
+</html>
