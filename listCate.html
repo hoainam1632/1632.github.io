@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manga world</title>
+    <link rel="stylesheet" href="css/navBar.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/body.css">
+    <link rel="stylesheet" href="css/listCate.css">
+    <!--Boostrap-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div id="master">
+          <!-- NAV BAR-->
+          <div id="nav-bar">
+            <img id="logo" src="https://w7.pngwing.com/pngs/768/128/png-transparent-fairy-tail-logo-manga-anime-digital-purple-circle-purple-emblem-violet.png" alt="">
+            <ul id="list-nav-bar">
+                <li>
+            <input id="txt-search" type="text" name="txtSearch" placeholder="Nhap ten truyen">
+            <i id="icon-search" class="fa fa-search"></i>
+            <ul id="list-search">
+                <li>
+                    <a href="">
+                    <img src="https://i.pinimg.com/originals/a6/6d/93/a66d93b32698ef7d7f6aea369ab4d196.jpg" alt="" id="list-search-poster">
+                    <h5 id="list-search-name">
+                        Yaiba Kimetsu
+                    </h5>
+                    <h5 id="list-search-chapter">
+                        Chapter: 20
+                    </h5>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                <img src="https://i.pinimg.com/originals/34/5c/31/345c3185d85e7c67931a44d542ca9760.jpg" alt="" id="list-search-poster">
+                <h5 id="list-search-name">
+                   Black clover
+                </h5>
+                <h5 id="list-search-chapter">
+                    Chapter: 20
+                </h5>
+            </a>
+        </li>
+        <li>
+            <a href="">
+            <img src="https://m.media-amazon.com/images/M/MV5BN2E2OTgzODktMjBhYy00MjJjLWI0OTgtNGYxOGNhMWMxOWE4XkEyXkFqcGdeQXVyMzgxODM4NjM@._V1_UY1200_CR109,0,630,1200_AL_.jpg" alt="" id="list-search-poster">
+            <h5 id="list-search-name">
+                Tokyo ghoul
+            </h5>
+            <h5 id="list-search-chapter">
+                Chapter: 20
+            </h5>
+        </a>
+    </li>
+    <li>
+        <a href="">
+        <img src="https://cdn.shopify.com/s/files/1/0747/3829/products/mL0215.jpg?v=1571444773" alt="" id="list-search-poster">
+        <h5 id="list-search-name">
+            My hero Academia
+        </h5>
+        <h5 id="list-search-chapter">
+            Chapter: 20
+        </h5>
+    </a>
+    </li>
+            </ul>
+            </li>
+               <li id="list-nav"><a href="" id="font">The Loai</a>
+                    <ul id="sub-nav">
+                        <li><a href="">ACTION</a></li>
+                        <li><a href="">FUNNY</a></li>
+                        <li><a href="">ROMANTIC</a></li>
+                        <li><a href="">FANTASY</a></li>
+                    </ul>
+               </li>
+               <li id="list-nav"><a href="">Theo Mua</a>
+                <ul id="sub-nav">
+                    <li><a href="">2020</a></li>
+                    <li><a href="">2019</a></li>
+                    <li><a href="">2018</a></li>
+                    <li><a href="">2017</a></li>
+                </ul>
+               </li>
+               <li id="list-nav"><a href="">Doc Nhieu Nhat</a></li>
+               <li id="list-nav"><a href="">Thong Tin</a></li>
+            </ul>
+        </div>
+        <!-- // NAV BAR-->
+        <!--fliter-->
+        <div id="fliter">
+            <div id="cate">
+            <h1> Category: </h1>
+            <select name="The loai" id="">
+                <option value="">Action</option>
+                <option value="">Horor</option>
+                <option value="">Romantic</option>
+                <option value="">Fantasy</option>
+                <option value="">Shounen</option>
+            </select>
+            </div>
+            <div id="status">
+                <h1>Status: </h1>
+                <ul id="sub-status">
+                   <li> <a href="">Finish</a></li>
+                   <li> <a href="" >Updating</a></li>
+                </ul>
+            </div>
+            <div id="sort">
+                <h1>Sort:</h1>
+                <select name="" id="">
+                    <option value="">Cập nhật mới nhất</option>
+                    <option value="">Cập nhật cũ nhất</option>
+                </select>
+            </div>
+        </div>
+        <!-- // fliter-->
+           <!-- BODY -->
+           <div id="body">
+            <!--list 1-->
+            <div id="title">
+                <h1>Truyen Moi Cap Nhat</h1>
+            </div>
+            <div id="list">
+                <div id="info">
+                    <div id="img-info">
+                        <img src="https://i.pinimg.com/originals/a6/6d/93/a66d93b32698ef7d7f6aea369ab4d196.jpg" alt="">
+                    </div>
+                    <div id="name-info">
+                        Yaiba Kimetsu
+                    </div>
+                    <div id="chapter-info">
+                        Chapter: 21
+                    </div>
+                    <div id="content-info">
+                            <div id="content-name">Yaiba Kimetsu</div>
+                            <div id="content-chapter">Chapter: 21</div>
+                            <div id="content-detail">
+                                Kimetsu no Yaiba – Tanjirou là con cả của gia đình vừa mất cha. Một ngày nọ, Tanjirou đến thăm thị trấn khác để bán than, khi đêm về cậu ở nghỉ tại nhà người khác thay vì về nhà vì lời đồn thổi về ác quỷ luôn rình mò gần núi vào buổi tối. Khi cậu về nhà vào ngày hôm sau, bị kịch đang đợi chờ cậu…
+                            </div>
+                    </div>
+                </div>
+                <div id="info">
+                    <div id="img-info">
+                        <img src="https://i.pinimg.com/originals/34/5c/31/345c3185d85e7c67931a44d542ca9760.jpg" alt="">
+                    </div>
+                    <div id="name-info">
+                        Black clover
+                    </div>
+                    <div id="chapter-info">
+                        Chapter: 25
+                    </div>
+                    <div id="content-info">
+                        <div id="content-name">Black clover</div>
+                        <div id="content-chapter">Chapter: 25</div>
+                        <div id="content-detail">
+                            Kimetsu no Yaiba – Tanjirou là con cả của gia đình vừa mất cha. Một ngày nọ, Tanjirou đến thăm thị trấn khác để bán than, khi đêm về cậu ở nghỉ tại nhà người khác thay vì về nhà vì lời đồn thổi về ác quỷ luôn rình mò gần núi vào buổi tối. Khi cậu về nhà vào ngày hôm sau, bị kịch đang đợi chờ cậu…
+                        </div>
+                </div>
+                </div>
+                <div id="info">
+                    <div id="img-info">
+                        <img src="https://m.media-amazon.com/images/M/MV5BN2E2OTgzODktMjBhYy00MjJjLWI0OTgtNGYxOGNhMWMxOWE4XkEyXkFqcGdeQXVyMzgxODM4NjM@._V1_UY1200_CR109,0,630,1200_AL_.jpg" alt="">
+                    </div>
+                    <div id="name-info">
+                        TOKYO Ghould
+                    </div>
+                    <div id="chapter-info">
+                        Chapter: 212
+                    </div>
+                    <div id="content-info">
+                        <div id="content-name">TOKYO Ghould</div>
+                        <div id="content-chapter">Chapter: 212</div>
+                        <div id="content-detail">
+                            Kimetsu no Yaiba – Tanjirou là con cả của gia đình vừa mất cha. Một ngày nọ, Tanjirou đến thăm thị trấn khác để bán than, khi đêm về cậu ở nghỉ tại nhà người khác thay vì về nhà vì lời đồn thổi về ác quỷ luôn rình mò gần núi vào buổi tối. Khi cậu về nhà vào ngày hôm sau, bị kịch đang đợi chờ cậu…
+                        </div>
+                </div>
+                </div>
+                <div id="info">
+                    <div id="img-info">
+                        <img src="https://cdn.shopify.com/s/files/1/0747/3829/products/mL0215.jpg?v=1571444773" alt="">
+                    </div>
+                    <div id="name-info">
+                        My hero Academia
+                    </div>
+                    <div id="chapter-info">
+                        Chapter: 40
+                    </div>
+                    <div id="content-info">
+                        <div id="content-name">My hero Academia</div>
+                        <div id="content-chapter">Chapter: 40</div>
+                        <div id="content-detail">
+                            Kimetsu no Yaiba – Tanjirou là con cả của gia đình vừa mất cha. Một ngày nọ, Tanjirou đến thăm thị trấn khác để bán than, khi đêm về cậu ở nghỉ tại nhà người khác thay vì về nhà vì lời đồn thổi về ác quỷ luôn rình mò gần núi vào buổi tối. Khi cậu về nhà vào ngày hôm sau, bị kịch đang đợi chờ cậu…
+                        </div>
+                </div>
+                </div>
+                <div id="info">
+                    <div id="img-info">
+                        <img src="https://i.pinimg.com/originals/a6/6d/93/a66d93b32698ef7d7f6aea369ab4d196.jpg" alt="">
+                    </div>
+                    <div id="name-info">
+                        Yaiba Kimetsu
+                    </div>
+                    <div id="chapter-info">
+                        Chapter: 21
+                    </div>
+                    <div id="content-info">
+                            <div id="content-name">Yaiba Kimetsu</div>
+                            <div id="content-chapter">Chapter: 21</div>
+                            <div id="content-detail">
+                                Kimetsu no Yaiba – Tanjirou là con cả của gia đình vừa mất cha. Một ngày nọ, Tanjirou đến thăm thị trấn khác để bán than, khi đêm về cậu ở nghỉ tại nhà người khác thay vì về nhà vì lời đồn thổi về ác quỷ luôn rình mò gần núi vào buổi tối. Khi cậu về nhà vào ngày hôm sau, bị kịch đang đợi chờ cậu…
+                            </div>
+                    </div>
+                </div>
+                <div id="info">
+                    <div id="img-info">
+                        <img src="https://i.pinimg.com/originals/34/5c/31/345c3185d85e7c67931a44d542ca9760.jpg" alt="">
+                    </div>
+                    <div id="name-info">
+                        Black clover
+                    </div>
+                    <div id="chapter-info">
+                        Chapter: 25
+                    </div>
+                    <div id="content-info">
+                        <div id="content-name">Black clover</div>
+                        <div id="content-chapter">Chapter: 25</div>
+                        <div id="content-detail">
+                            Kimetsu no Yaiba – Tanjirou là con cả của gia đình vừa mất cha. Một ngày nọ, Tanjirou đến thăm thị trấn khác để bán than, khi đêm về cậu ở nghỉ tại nhà người khác thay vì về nhà vì lời đồn thổi về ác quỷ luôn rình mò gần núi vào buổi tối. Khi cậu về nhà vào ngày hôm sau, bị kịch đang đợi chờ cậu…
+                        </div>
+                </div>
+                </div>
+                <div id="info">
+                    <div id="img-info">
+                        <img src="https://m.media-amazon.com/images/M/MV5BN2E2OTgzODktMjBhYy00MjJjLWI0OTgtNGYxOGNhMWMxOWE4XkEyXkFqcGdeQXVyMzgxODM4NjM@._V1_UY1200_CR109,0,630,1200_AL_.jpg" alt="">
+                    </div>
+                    <div id="name-info">
+                        TOKYO Ghould
+                    </div>
+                    <div id="chapter-info">
+                        Chapter: 212
+                    </div>
+                    <div id="content-info">
+                        <div id="content-name">TOKYO Ghould</div>
+                        <div id="content-chapter">Chapter: 212</div>
+                        <div id="content-detail">
+                            Kimetsu no Yaiba – Tanjirou là con cả của gia đình vừa mất cha. Một ngày nọ, Tanjirou đến thăm thị trấn khác để bán than, khi đêm về cậu ở nghỉ tại nhà người khác thay vì về nhà vì lời đồn thổi về ác quỷ luôn rình mò gần núi vào buổi tối. Khi cậu về nhà vào ngày hôm sau, bị kịch đang đợi chờ cậu…
+                        </div>
+                </div>
+                </div>
+                <div id="info">
+                    <div id="img-info">
+                        <img src="https://cdn.shopify.com/s/files/1/0747/3829/products/mL0215.jpg?v=1571444773" alt="">
+                    </div>
+                    <div id="name-info">
+                        My hero Academia
+                    </div>
+                    <div id="chapter-info">
+                        Chapter: 40
+                    </div>
+                    <div id="content-info">
+                        <div id="content-name">My hero Academia</div>
+                        <div id="content-chapter">Chapter: 40</div>
+                        <div id="content-detail">
+                            Kimetsu no Yaiba – Tanjirou là con cả của gia đình vừa mất cha. Một ngày nọ, Tanjirou đến thăm thị trấn khác để bán than, khi đêm về cậu ở nghỉ tại nhà người khác thay vì về nhà vì lời đồn thổi về ác quỷ luôn rình mò gần núi vào buổi tối. Khi cậu về nhà vào ngày hôm sau, bị kịch đang đợi chờ cậu…
+                        </div>
+                </div>
+                </div>
+                <div id="info">
+                    <div id="img-info">
+                        <img src="https://i.pinimg.com/originals/a6/6d/93/a66d93b32698ef7d7f6aea369ab4d196.jpg" alt="">
+                    </div>
+                    <div id="name-info">
+                        Yaiba Kimetsu
+                    </div>
+                    <div id="chapter-info">
+                        Chapter: 21
+                    </div>
+                    <div id="content-info">
+                            <div id="content-name">Yaiba Kimetsu</div>
+                            <div id="content-chapter">Chapter: 21</div>
+                            <div id="content-detail">
+                                Kimetsu no Yaiba – Tanjirou là con cả của gia đình vừa mất cha. Một ngày nọ, Tanjirou đến thăm thị trấn khác để bán than, khi đêm về cậu ở nghỉ tại nhà người khác thay vì về nhà vì lời đồn thổi về ác quỷ luôn rình mò gần núi vào buổi tối. Khi cậu về nhà vào ngày hôm sau, bị kịch đang đợi chờ cậu…
+                            </div>
+                    </div>
+                </div>
+                <div id="info">
+                    <div id="img-info">
+                        <img src="https://i.pinimg.com/originals/34/5c/31/345c3185d85e7c67931a44d542ca9760.jpg" alt="">
+                    </div>
+                    <div id="name-info">
+                        Black clover
+                    </div>
+                    <div id="chapter-info">
+                        Chapter: 25
+                    </div>
+                    <div id="content-info">
+                        <div id="content-name">Black clover</div>
+                        <div id="content-chapter">Chapter: 25</div>
+                        <div id="content-detail">
+                            Kimetsu no Yaiba – Tanjirou là con cả của gia đình vừa mất cha. Một ngày nọ, Tanjirou đến thăm thị trấn khác để bán than, khi đêm về cậu ở nghỉ tại nhà người khác thay vì về nhà vì lời đồn thổi về ác quỷ luôn rình mò gần núi vào buổi tối. Khi cậu về nhà vào ngày hôm sau, bị kịch đang đợi chờ cậu…
+                        </div>
+                </div>
+                </div>
+                <div id="info">
+                    <div id="img-info">
+                        <img src="https://m.media-amazon.com/images/M/MV5BN2E2OTgzODktMjBhYy00MjJjLWI0OTgtNGYxOGNhMWMxOWE4XkEyXkFqcGdeQXVyMzgxODM4NjM@._V1_UY1200_CR109,0,630,1200_AL_.jpg" alt="">
+                    </div>
+                    <div id="name-info">
+                        TOKYO Ghould
+                    </div>
+                    <div id="chapter-info">
+                        Chapter: 212
+                    </div>
+                    <div id="content-info">
+                        <div id="content-name">TOKYO Ghould</div>
+                        <div id="content-chapter">Chapter: 212</div>
+                        <div id="content-detail">
+                            Kimetsu no Yaiba – Tanjirou là con cả của gia đình vừa mất cha. Một ngày nọ, Tanjirou đến thăm thị trấn khác để bán than, khi đêm về cậu ở nghỉ tại nhà người khác thay vì về nhà vì lời đồn thổi về ác quỷ luôn rình mò gần núi vào buổi tối. Khi cậu về nhà vào ngày hôm sau, bị kịch đang đợi chờ cậu…
+                        </div>
+                </div>
+                </div>
+                <div id="info">
+                    <div id="img-info">
+                        <img src="https://cdn.shopify.com/s/files/1/0747/3829/products/mL0215.jpg?v=1571444773" alt="">
+                    </div>
+                    <div id="name-info">
+                        My hero Academia
+                    </div>
+                    <div id="chapter-info">
+                        Chapter: 40
+                    </div>
+                    <div id="content-info">
+                        <div id="content-name">My hero Academia</div>
+                        <div id="content-chapter">Chapter: 40</div>
+                        <div id="content-detail">
+                            Kimetsu no Yaiba – Tanjirou là con cả của gia đình vừa mất cha. Một ngày nọ, Tanjirou đến thăm thị trấn khác để bán than, khi đêm về cậu ở nghỉ tại nhà người khác thay vì về nhà vì lời đồn thổi về ác quỷ luôn rình mò gần núi vào buổi tối. Khi cậu về nhà vào ngày hôm sau, bị kịch đang đợi chờ cậu…
+                        </div>
+                </div>
+                </div>
+                <div id="info">
+                    <div id="img-info">
+                        <img src="https://i.pinimg.com/originals/a6/6d/93/a66d93b32698ef7d7f6aea369ab4d196.jpg" alt="">
+                    </div>
+                    <div id="name-info">
+                        Yaiba Kimetsu
+                    </div>
+                    <div id="chapter-info">
+                        Chapter: 21
+                    </div>
+                    <div id="content-info">
+                            <div id="content-name">Yaiba Kimetsu</div>
+                            <div id="content-chapter">Chapter: 21</div>
+                            <div id="content-detail">
+                                Kimetsu no Yaiba – Tanjirou là con cả của gia đình vừa mất cha. Một ngày nọ, Tanjirou đến thăm thị trấn khác để bán than, khi đêm về cậu ở nghỉ tại nhà người khác thay vì về nhà vì lời đồn thổi về ác quỷ luôn rình mò gần núi vào buổi tối. Khi cậu về nhà vào ngày hôm sau, bị kịch đang đợi chờ cậu…
+                            </div>
+                    </div>
+                </div>
+                <div id="info">
+                    <div id="img-info">
+                        <img src="https://i.pinimg.com/originals/34/5c/31/345c3185d85e7c67931a44d542ca9760.jpg" alt="">
+                    </div>
+                    <div id="name-info">
+                        Black clover
+                    </div>
+                    <div id="chapter-info">
+                        Chapter: 25
+                    </div>
+                    <div id="content-info">
+                        <div id="content-name">Black clover</div>
+                        <div id="content-chapter">Chapter: 25</div>
+                        <div id="content-detail">
+                            Kimetsu no Yaiba – Tanjirou là con cả của gia đình vừa mất cha. Một ngày nọ, Tanjirou đến thăm thị trấn khác để bán than, khi đêm về cậu ở nghỉ tại nhà người khác thay vì về nhà vì lời đồn thổi về ác quỷ luôn rình mò gần núi vào buổi tối. Khi cậu về nhà vào ngày hôm sau, bị kịch đang đợi chờ cậu…
+                        </div>
+                </div>
+                </div>
+                <div id="info">
+                    <div id="img-info">
+                        <img src="https://m.media-amazon.com/images/M/MV5BN2E2OTgzODktMjBhYy00MjJjLWI0OTgtNGYxOGNhMWMxOWE4XkEyXkFqcGdeQXVyMzgxODM4NjM@._V1_UY1200_CR109,0,630,1200_AL_.jpg" alt="">
+                    </div>
+                    <div id="name-info">
+                        TOKYO Ghould
+                    </div>
+                    <div id="chapter-info">
+                        Chapter: 212
+                    </div>
+                    <div id="content-info">
+                        <div id="content-name">TOKYO Ghould</div>
+                        <div id="content-chapter">Chapter: 212</div>
+                        <div id="content-detail">
+                            Kimetsu no Yaiba – Tanjirou là con cả của gia đình vừa mất cha. Một ngày nọ, Tanjirou đến thăm thị trấn khác để bán than, khi đêm về cậu ở nghỉ tại nhà người khác thay vì về nhà vì lời đồn thổi về ác quỷ luôn rình mò gần núi vào buổi tối. Khi cậu về nhà vào ngày hôm sau, bị kịch đang đợi chờ cậu…
+                        </div>
+                </div>
+                </div>
+                <div id="info">
+                    <div id="img-info">
+                        <img src="https://cdn.shopify.com/s/files/1/0747/3829/products/mL0215.jpg?v=1571444773" alt="">
+                    </div>
+                    <div id="name-info">
+                        My hero Academia
+                    </div>
+                    <div id="chapter-info">
+                        Chapter: 40
+                    </div>
+                    <div id="content-info">
+                        <div id="content-name">My hero Academia</div>
+                        <div id="content-chapter">Chapter: 40</div>
+                        <div id="content-detail">
+                            Kimetsu no Yaiba – Tanjirou là con cả của gia đình vừa mất cha. Một ngày nọ, Tanjirou đến thăm thị trấn khác để bán than, khi đêm về cậu ở nghỉ tại nhà người khác thay vì về nhà vì lời đồn thổi về ác quỷ luôn rình mò gần núi vào buổi tối. Khi cậu về nhà vào ngày hôm sau, bị kịch đang đợi chờ cậu…
+                        </div>
+                </div>
+                </div>
+                <div id="info">
+                    <div id="img-info">
+                        <img src="https://i.pinimg.com/originals/a6/6d/93/a66d93b32698ef7d7f6aea369ab4d196.jpg" alt="">
+                    </div>
+                    <div id="name-info">
+                        Yaiba Kimetsu
+                    </div>
+                    <div id="chapter-info">
+                        Chapter: 21
+                    </div>
+                    <div id="content-info">
+                            <div id="content-name">Yaiba Kimetsu</div>
+                            <div id="content-chapter">Chapter: 21</div>
+                            <div id="content-detail">
+                                Kimetsu no Yaiba – Tanjirou là con cả của gia đình vừa mất cha. Một ngày nọ, Tanjirou đến thăm thị trấn khác để bán than, khi đêm về cậu ở nghỉ tại nhà người khác thay vì về nhà vì lời đồn thổi về ác quỷ luôn rình mò gần núi vào buổi tối. Khi cậu về nhà vào ngày hôm sau, bị kịch đang đợi chờ cậu…
+                            </div>
+                    </div>
+                </div>
+                <div id="info">
+                    <div id="img-info">
+                        <img src="https://i.pinimg.com/originals/34/5c/31/345c3185d85e7c67931a44d542ca9760.jpg" alt="">
+                    </div>
+                    <div id="name-info">
+                        Black clover
+                    </div>
+                    <div id="chapter-info">
+                        Chapter: 25
+                    </div>
+                    <div id="content-info">
+                        <div id="content-name">Black clover</div>
+                        <div id="content-chapter">Chapter: 25</div>
+                        <div id="content-detail">
+                            Kimetsu no Yaiba – Tanjirou là con cả của gia đình vừa mất cha. Một ngày nọ, Tanjirou đến thăm thị trấn khác để bán than, khi đêm về cậu ở nghỉ tại nhà người khác thay vì về nhà vì lời đồn thổi về ác quỷ luôn rình mò gần núi vào buổi tối. Khi cậu về nhà vào ngày hôm sau, bị kịch đang đợi chờ cậu…
+                        </div>
+                </div>
+                </div>
+                <div id="info">
+                    <div id="img-info">
+                        <img src="https://m.media-amazon.com/images/M/MV5BN2E2OTgzODktMjBhYy00MjJjLWI0OTgtNGYxOGNhMWMxOWE4XkEyXkFqcGdeQXVyMzgxODM4NjM@._V1_UY1200_CR109,0,630,1200_AL_.jpg" alt="">
+                    </div>
+                    <div id="name-info">
+                        TOKYO Ghould
+                    </div>
+                    <div id="chapter-info">
+                        Chapter: 212
+                    </div>
+                    <div id="content-info">
+                        <div id="content-name">TOKYO Ghould</div>
+                        <div id="content-chapter">Chapter: 212</div>
+                        <div id="content-detail">
+                            Kimetsu no Yaiba – Tanjirou là con cả của gia đình vừa mất cha. Một ngày nọ, Tanjirou đến thăm thị trấn khác để bán than, khi đêm về cậu ở nghỉ tại nhà người khác thay vì về nhà vì lời đồn thổi về ác quỷ luôn rình mò gần núi vào buổi tối. Khi cậu về nhà vào ngày hôm sau, bị kịch đang đợi chờ cậu…
+                        </div>
+                </div>
+                </div>
+                <div id="info">
+                    <div id="img-info">
+                        <img src="https://cdn.shopify.com/s/files/1/0747/3829/products/mL0215.jpg?v=1571444773" alt="">
+                    </div>
+                    <div id="name-info">
+                        My hero Academia
+                    </div>
+                    <div id="chapter-info">
+                        Chapter: 40
+                    </div>
+                    <div id="content-info">
+                        <div id="content-name">My hero Academia</div>
+                        <div id="content-chapter">Chapter: 40</div>
+                        <div id="content-detail">
+                            Kimetsu no Yaiba – Tanjirou là con cả của gia đình vừa mất cha. Một ngày nọ, Tanjirou đến thăm thị trấn khác để bán than, khi đêm về cậu ở nghỉ tại nhà người khác thay vì về nhà vì lời đồn thổi về ác quỷ luôn rình mò gần núi vào buổi tối. Khi cậu về nhà vào ngày hôm sau, bị kịch đang đợi chờ cậu…
+                        </div>
+                </div>
+                </div>
+                <div id="info">
+                    <div id="img-info">
+                        <img src="https://i.pinimg.com/originals/a6/6d/93/a66d93b32698ef7d7f6aea369ab4d196.jpg" alt="">
+                    </div>
+                    <div id="name-info">
+                        Yaiba Kimetsu
+                    </div>
+                    <div id="chapter-info">
+                        Chapter: 21
+                    </div>
+                    <div id="content-info">
+                            <div id="content-name">Yaiba Kimetsu</div>
+                            <div id="content-chapter">Chapter: 21</div>
+                            <div id="content-detail">
+                                Kimetsu no Yaiba – Tanjirou là con cả của gia đình vừa mất cha. Một ngày nọ, Tanjirou đến thăm thị trấn khác để bán than, khi đêm về cậu ở nghỉ tại nhà người khác thay vì về nhà vì lời đồn thổi về ác quỷ luôn rình mò gần núi vào buổi tối. Khi cậu về nhà vào ngày hôm sau, bị kịch đang đợi chờ cậu…
+                            </div>
+                    </div>
+                </div>
+                <div id="info">
+                    <div id="img-info">
+                        <img src="https://i.pinimg.com/originals/34/5c/31/345c3185d85e7c67931a44d542ca9760.jpg" alt="">
+                    </div>
+                    <div id="name-info">
+                        Black clover
+                    </div>
+                    <div id="chapter-info">
+                        Chapter: 25
+                    </div>
+                    <div id="content-info">
+                        <div id="content-name">Black clover</div>
+                        <div id="content-chapter">Chapter: 25</div>
+                        <div id="content-detail">
+                            Kimetsu no Yaiba – Tanjirou là con cả của gia đình vừa mất cha. Một ngày nọ, Tanjirou đến thăm thị trấn khác để bán than, khi đêm về cậu ở nghỉ tại nhà người khác thay vì về nhà vì lời đồn thổi về ác quỷ luôn rình mò gần núi vào buổi tối. Khi cậu về nhà vào ngày hôm sau, bị kịch đang đợi chờ cậu…
+                        </div>
+                </div>
+                </div>
+                <div id="info">
+                    <div id="img-info">
+                        <img src="https://m.media-amazon.com/images/M/MV5BN2E2OTgzODktMjBhYy00MjJjLWI0OTgtNGYxOGNhMWMxOWE4XkEyXkFqcGdeQXVyMzgxODM4NjM@._V1_UY1200_CR109,0,630,1200_AL_.jpg" alt="">
+                    </div>
+                    <div id="name-info">
+                        TOKYO Ghould
+                    </div>
+                    <div id="chapter-info">
+                        Chapter: 212
+                    </div>
+                    <div id="content-info">
+                        <div id="content-name">TOKYO Ghould</div>
+                        <div id="content-chapter">Chapter: 212</div>
+                        <div id="content-detail">
+                            Kimetsu no Yaiba – Tanjirou là con cả của gia đình vừa mất cha. Một ngày nọ, Tanjirou đến thăm thị trấn khác để bán than, khi đêm về cậu ở nghỉ tại nhà người khác thay vì về nhà vì lời đồn thổi về ác quỷ luôn rình mò gần núi vào buổi tối. Khi cậu về nhà vào ngày hôm sau, bị kịch đang đợi chờ cậu…
+                        </div>
+                </div>
+                </div>
+                <div id="info">
+                    <div id="img-info">
+                        <img src="https://cdn.shopify.com/s/files/1/0747/3829/products/mL0215.jpg?v=1571444773" alt="">
+                    </div>
+                    <div id="name-info">
+                        My hero Academia
+                    </div>
+                    <div id="chapter-info">
+                        Chapter: 40
+                    </div>
+                    <div id="content-info">
+                        <div id="content-name">My hero Academia</div>
+                        <div id="content-chapter">Chapter: 40</div>
+                        <div id="content-detail">
+                            Kimetsu no Yaiba – Tanjirou là con cả của gia đình vừa mất cha. Một ngày nọ, Tanjirou đến thăm thị trấn khác để bán than, khi đêm về cậu ở nghỉ tại nhà người khác thay vì về nhà vì lời đồn thổi về ác quỷ luôn rình mò gần núi vào buổi tối. Khi cậu về nhà vào ngày hôm sau, bị kịch đang đợi chờ cậu…
+                        </div>
+                </div>
+                </div>
+            </div>
+            <div id="page">
+                <ul>
+                    <li><a href="#">1</a></li>
+                    <li><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                    <li><a href="#">4</a></li>
+                    <li><a href="#">5</a></li>
+                    <li><a href="#">6</a></li>
+                    <li><a href="#">7</a></li>
+                    <li><a href="#">8</a></li>
+                </ul>
+            </div>
+        </div>
+    <!-- // BODY -->
+      <!-- FOOTER -->
+      <div id="footer">
+        <div id="bg-img"></div>
+        <div id="infor-footer" style="color: white;">
+        <img id="logo" width="50px" src="https://w7.pngwing.com/pngs/768/128/png-transparent-fairy-tail-logo-manga-anime-digital-purple-circle-purple-emblem-violet.png" alt="">
+        MangaWorld.com<br/>
+        Design by: Nguyễn Hoài Nam<br/> 
+        Copyright &copy; 2020 Manga-world
+      </div>
+    </div>
+    <!-- // FOOTER -->
+</div>
+    <script src="js/search-navBar.js"></script>
+</body>
+</html>

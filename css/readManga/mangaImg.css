@@ -1,0 +1,44 @@
+#master{
+    background-color: black;
+}
+#manga-function{
+    display: inline-block;
+    width: 72em;
+    background-color: white;
+    margin-top: 4em;
+    margin-bottom: 10px;
+}
+a{
+    text-decoration: none;
+}
+#title{
+    text-align: left;
+}
+#title-name a{
+    float: left;
+    padding: 0 10px;
+    font-size: 25px;
+}
+#title-chapter{
+    font-size: 18px;
+    padding: 6px 0;   
+}
+#function-use{
+    font-size: 25px;
+    padding: 10px 20px;
+}
+#function-use a{
+    padding: 0 10px;
+}
+#select-chapter{
+    text-align: center;
+    width: 15em;
+    height: 30px;
+    border-radius: 10px;
+}
+#body-manga{
+    display: inline-block;
+}
+#img-manga{
+    display: block;
+}

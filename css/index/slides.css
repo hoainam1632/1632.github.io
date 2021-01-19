@@ -1,0 +1,83 @@
+#slides-container{
+    margin-left: 2px;
+    margin-right: 2px;
+    position: relative;
+    display: flex;
+    width: 620px;
+    height: 380px;
+    overflow: hidden;
+    float: left;
+  }
+#slides{
+    display: flex;
+    transition: 1s all;
+    background-color: black;
+}
+.slide{
+    object-fit: fill;
+    width: 620px;
+    height: 380px;
+    z-index: 0;
+}
+#slide-img{
+    position: relative;
+}
+#slide-img:hover img{
+    opacity: 0.3;
+}
+#slides-container i:hover {
+    color: black;
+}
+#slides-container i{
+    position: absolute;
+    background:content-box;
+    border: none;
+    top: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 25px;
+    color: white;
+    opacity: 0.7;
+    cursor: pointer;
+}
+#slides-container #btn-next{
+    right: 0px;
+    z-index: 3;
+}
+#slides-container #btn-prev{
+    left: 0px;
+}
+#slide-content, #slide-name, #slide-chapter{
+    transition: 0.5s all;
+    position: absolute;
+    left: 0;
+    font-weight: bold;
+    font-size: 20px;
+    text-shadow: 2px 2px black;
+    color: white;
+}
+#slide-chapter{
+    top: 0;
+}
+#slide-name{
+    bottom: 0;
+}
+#slide-content{
+    text-align: left;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    bottom: -200px;
+    font-size: 20px;
+    font-weight: normal;
+}
+#slide-img:hover #slide-name{
+    bottom: 220px;
+}
+#slide-img:hover #slide-chapter{
+    top: 160px;
+}
+#slide-img:hover #slide-content{
+    bottom: 0;
+}

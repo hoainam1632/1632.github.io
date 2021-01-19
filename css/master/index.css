@@ -1,0 +1,51 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+#master{
+  background-color: rgb(228, 220, 220);
+  text-align: center;
+}
+#nav-bar{
+  background-color: orange;
+  height: 60px;
+  display: flex;
+  position: fixed;
+  top: 0;
+  z-index: 99;
+  width: 100%;
+}
+#header{
+  margin-top: 61px;
+  width: auto;
+  display: inline-block;
+}
+
+#body {
+  background-color: white;
+  height: auto;
+  width: 72em;
+  display: inline-block;
+}
+#footer{
+  position: relative;
+  height: 15em;
+  background-color: black;
+}
+#bg-img{
+  height: 100%;
+  background-image: url("https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/115211109/original/3e0a5f0989a6fc86fe234e4237cbe0d186307b0f/anime-banner-or-wallpaper.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  opacity: 0.3;
+}
+#infor-footer{
+  display: flex;
+  position: absolute;
+  top: 5px;
+  left: 20px;
+}
+#infor-footer img{
+  margin-right: 10px;
+}

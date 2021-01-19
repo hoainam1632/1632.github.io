@@ -1,0 +1,106 @@
+
+#nav-bar #list-nav-bar, #sub-nav{
+    background-color: orange;
+    width: 100%;
+    text-align: left;
+}
+#list-nav-bar #list-nav{
+    line-height: 60px;
+    border-right: 1px black solid;
+}
+#nav-bar ul li{
+    display: inline-table;
+    width: 120px;
+    height: 60px;
+    list-style: none;  
+    position: relative;
+    
+}
+a{
+    text-decoration: none;
+}
+#nav-bar ul li a{
+    color: black;
+    display: block;
+    text-align: center;
+}
+#list-nav-bar #list-nav a:hover{
+     color: white;
+     background-color: darkgray;
+}
+#nav-bar #txt-search{
+    margin-top: 0.7em;
+    margin-left: 5px;
+    border-radius: 5px;
+    width: 21em;
+    height: 2.4em;
+}
+#nav-bar #icon-search{
+    position: absolute;
+    top: 22px;
+    right: 5px;
+    cursor: pointer;
+}
+
+#list-nav-bar li > #sub-nav{
+    display: none;
+    position: absolute;
+}
+#list-nav-bar #sub-nav li{
+    border-right: none;
+    border-top: 1px black solid;
+}
+#list-nav-bar li:hover #sub-nav{
+    display: block;
+}
+#nav-bar #logo{
+    width: 50px;
+    height: 50px;
+    margin-top: 5px;
+}
+ #list-search{
+    display: none;
+    height: 30em;
+    width: 18.09em;
+    overflow: auto;
+}
+#list-search li{
+    background-color: white;
+    padding: 5px 0;
+    border-bottom: 1px solid rgb(155, 147, 147);
+}
+#list-search a{
+    width: 272px;
+    height: 7.5em;
+   
+}
+#list-search img{
+    width: 5em;
+    height: 7.5em;
+    float: left;
+}
+
+#list-search h5{
+    text-align: left;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    font-size: 16px;
+}
+#list-search-chapter{
+    font-weight: 200;
+}
+#list-search li:hover a{
+    background-color: rgb(63, 219, 63);
+}
+#accout{
+    position: absolute;
+    right: 0;
+    bottom: 25px;
+}
+#accout a{
+    color: crimson;
+    font-size: 17px;
+    padding: 0px 5px;
+}

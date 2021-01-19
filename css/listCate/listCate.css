@@ -1,0 +1,75 @@
+
+#fliter{
+    background-color: white;
+    height: 200px;
+    margin-bottom: 10px;
+    margin-top: 5%;
+    display: inline-block;
+    width: 72em;
+}
+#cate, #status, #sort{
+    padding: 15px 25px;
+    text-align: left;
+    width: 20em;
+}
+#fliter h1{
+    font-size: 18px;
+    float: left;
+    font-weight: 200;
+    margin-top: 6px;
+}
+#fliter select{
+    background-color: #f9f9f9;
+    margin-left: 10px;
+    padding: 8px 40px;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid #e0e0e0;
+}
+
+#sub-status{
+    display: inline-flex;
+    text-align: center;
+    margin-left: 14px;
+}
+#sub-status li{
+    list-style: none;
+    padding: 8px 20px;
+    margin-left: 10px;
+    line-height: 25px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+}
+#status a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+#sub-status li:hover a{
+    color: white;
+}
+#sub-status li:hover{
+    background-color: rgb(233, 169, 50);
+}
+#sort select{
+    margin-left: 35px;
+}
+
+#page{
+    width: 100%;
+}
+#page ul{
+    display: inline-flex;
+}
+#page ul li a{
+    text-decoration: none;
+    color: black;
+}
+#page ul li{
+    padding: 9px 10px;
+    border: 1px solid blue;
+    list-style: none;
+}
+#page ul li:hover{
+    background-color: orange;
+}

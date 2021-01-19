@@ -1,7 +1,7 @@
 var slides = document.getElementById('slides');
 var slide = document.getElementsByClassName('slide');
 var slideImg = document.getElementById('slide-img');
-var IMG_WIDTH = 606;
+var IMG_WIDTH = 620;
 
 slides.style.width = `${slide.length * IMG_WIDTH}px`;
 var index = 0;
