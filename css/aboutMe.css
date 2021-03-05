@@ -1,0 +1,202 @@
+ul li{
+    list-style: none;
+}
+#body-about{
+    width: 55em;
+    height: 70em;
+    background-color: gainsboro;
+    margin: 50px auto;
+}
+#title-body{
+    width: 100%;
+    height: 310px;
+    display: inline-flex;
+    background-color: #06A763;
+    position: relative;
+    
+}
+#list-content{
+    padding-top: 15px;
+}
+#list-content li{
+    padding: 5px 0;
+    list-style: none;
+}
+#shape{
+   position: absolute;
+   right: 20em;
+    width: 0;
+    height: 0;
+    border-right: 100px solid transparent;
+    border-bottom: 310px #06A763 solid;
+}
+#title-info{
+   
+    padding: 40px 10px;
+    width: 50%;
+    color: white;
+    margin-left: 20px;
+}
+#content-info{
+    font-size: 15px;
+}
+#icon-about{
+    float: left;
+    padding-right: 10px;
+}
+#title-avatar{
+    width: 50%;
+    background-color: black;
+    background-image: url('https://scontent.fdad2-1.fna.fbcdn.net/v/t1.0-9/150131871_111563474303048_6305915921588654524_o.jpg?_nc_cat=108&ccb=3&_nc_sid=09cbfe&_nc_ohc=q0YqgAHxiwcAX-_KMSb&_nc_ht=scontent.fdad2-1.fna&oh=226d3a362cfc89c778ff34387b4050b8&oe=6063FF6C');
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: 100%;
+}
+#get-link{
+    display: flex;
+}
+#get-link li{
+    padding: 0 10px;
+}
+#get-link li a{
+    background-color: black;
+    width: 200px;
+    text-decoration: none;
+    color: white;
+}
+#get-link .fab{
+    padding: 10px;
+    width: 15px;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 50%;
+}
+#get-link a:hover{
+    opacity: 0.5;
+}
+#icon-fb{
+    background-color: #3B5998 !important;
+}
+#icon-g{
+background-color: #dd4b39 !important;
+}
+#icon-git{
+    background-color: black !important;
+}
+#sub-main{
+    height: 200px;
+    margin: 10px auto;
+}
+#title-main{
+    display: inline-flex;
+    width: 100%;
+}
+#main-skill{
+    margin-left: 10px;
+    background-color: white;
+    width: 20em;
+    height: 300px;
+}
+#title-main #name-main, #my-project h1, #my-purpose h1{
+    padding: 0 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: normal;
+    font-size: 25px;
+}
+#title-main #line, #my-project #line, #my-purpose #line{ 
+    border: 2px solid gray;
+}
+#main-univer{
+    margin-left: 10px;
+    width: 33em;
+    background-color: white;
+}
+#all-skill li{
+    list-style: none;
+    padding: 10px 10px;
+}
+#all-skill li div{
+    width: 100%;
+    height: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+#persen{
+    animation-name: run;
+    animation-duration: 4s;
+    background-color: yellow;
+    height: 100%;
+    border-radius: 10px;
+}
+@keyframes run{
+    0%{width: 0;}
+}
+
+#skill-html p{
+    width: 60%;
+  
+}
+#skill-css p{
+    width: 40%;
+}
+#skill-php p{
+    width: 50%;
+}
+#skill-js p{
+    width: 20%;
+}
+#skill-java p{
+    width: 30%;
+}
+
+#name-univer{
+    padding: 5px 20px;
+}
+#info-univer li{
+    list-style: none;
+    padding: 10px 0;
+}
+#my-project{
+    margin: 20px auto;
+    background-color: white;
+    width: 53.6em;
+    height: 250px;
+}
+#info-project{
+    padding: 10px 20px;
+}
+#info-project li{
+    padding: 5px 0;
+}
+#my-purpose{
+    display: flex;
+    background: white;
+    width: 53.6em;
+    height: 200px;
+    margin: 20px auto;
+}
+#career-goals{
+    width: 25em;
+    height: 200px;
+}
+#career-goals h4{
+    padding: 10px 20px;
+    text-align: justify;
+    font-size: 18px;
+    font-weight: 100;
+    font-family: 'Times New Roman', Times, serif;
+}
+#purpose{
+    margin-left: 25px;
+    width: 25em;
+    height: 200px;
+}
+#list-purpose{
+    padding: 5px 20px;
+}
+#list-purpose li{
+    list-style: square;
+    padding: 5px 0;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
