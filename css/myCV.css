@@ -1,0 +1,218 @@
+
+*{
+margin: 0;
+padding: 0;
+}
+ul li{
+list-style: none;
+}
+#body-about{
+width: 55em;
+height: 70em;
+background-color: gainsboro;
+margin: 10px auto;
+}
+#title-body{
+width: 100%;
+height: 310px;
+display: inline-flex;
+background-color: #06A763;
+position: relative;
+
+}
+#list-content{
+padding-top: 15px;
+}
+#list-content li{
+padding: 8px 0;
+list-style: none;
+display: flex;
+}
+#list-content .link-fb{
+padding: 0 9px;
+}
+#shape{
+position: absolute;
+right: 20em;
+width: 0;
+height: 0;
+border-right: 100px solid transparent;
+border-bottom: 310px #06A763 solid;
+}
+#title-info{
+
+padding: 40px 10px;
+width: 50%;
+color: white;
+margin-left: 20px;
+}
+#content-info{
+font-size: 15px;
+text-align: left;
+}
+#icon-about{
+padding-right: 10px;
+}
+#title-avatar{
+width: 50%;
+background-color: black;
+background-image: url('https://scontent.fdad3-3.fna.fbcdn.net/v/t1.0-9/89354542_584347388958100_4205070568183037952_o.jpg?_nc_cat=100&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=PGnjNEtZClEAX-pvPWu&_nc_ht=scontent.fdad3-3.fna&oh=06b8fddcbf1325810b27e5253a6256a1&oe=606D8816');
+background-position: top;
+background-repeat: no-repeat;
+background-size: 205%;
+}
+#get-link{
+display: flex;
+}
+#get-link li{
+padding: 0 10px;
+}
+#get-link li a{
+background-color: black;
+width: 200px;
+text-decoration: none;
+color: white;
+}
+#get-link .fab{
+padding: 10px;
+width: 15px;
+text-align: center;
+font-size: 15px;
+border-radius: 50%;
+}
+#get-link a:hover{
+opacity: 0.5;
+}
+#icon-fb{
+background-color: #3B5998 !important;
+}
+#icon-g{
+background-color: #dd4b39 !important;
+}
+#icon-git{
+background-color: black !important;
+}
+#sub-main{
+height: 200px;
+margin: 10px auto;
+}
+#title-main{
+display: inline-flex;
+width: 100%;
+}
+#main-skill{
+margin-left: 10px;
+background-color: white;
+width: 20em;
+height: 300px;
+}
+#title-main #name-main, #body-main h1, #my-purpose h1{
+padding: 0 10px;
+font-family: 'Courier New', Courier, monospace;
+font-weight: normal;
+font-size: 25px;
+}
+#title-main #line, #body-main #line, #my-purpose #line{ 
+border: 2px solid gray;
+}
+#main-univer{
+margin-left: 10px;
+width: 53.6em;
+background-color: white;
+}
+#all-skill li{
+list-style: none;
+padding: 10px 10px;
+}
+#all-skill li div{
+width: 100%;
+height: 12px;
+border: 1px solid black;
+border-radius: 10px;
+}
+#persen{
+animation-name: run;
+animation-duration: 4s;
+background-color: yellow;
+height: 100%;
+border-radius: 10px;
+}
+@keyframes run{
+0%{width: 0;}
+}
+#point{
+text-align: center;
+margin-top: -14px;
+}
+#skill-html p{
+width: 50%;
+
+}
+#skill-css p{
+width: 30%;
+}
+#skill-php p{
+width: 40%;
+}
+#skill-js p{
+width: 10%;
+}
+#skill-english p{
+width: 20%;
+}
+
+#name-univer{
+padding: 5px 20px;
+}
+#info-univer li{
+list-style: circle;
+padding: 10px 0;
+}
+#my-project{
+margin-left: 10px;
+background-color: white;
+width: 33em;
+height: 300px;
+}
+#info-project{
+padding: 10px 20px;
+}
+#info-project li{
+padding: 5px 0;
+}
+#my-purpose{
+display: flex;
+background: white;
+width: 53.6em;
+height: 200px;
+margin: 10px auto;
+}
+#career-goals{
+width: 25em;
+height: 200px;
+}
+#career-goals h4{
+padding: 10px 20px;
+text-align: justify;
+font-size: 18px;
+font-weight: 100;
+font-family: 'Times New Roman', Times, serif;
+}
+#purpose{
+margin-left: 25px;
+width: 25em;
+height: 200px;
+}
+#list-purpose{
+padding: 5px 20px;
+}
+#list-purpose li{
+list-style: square;
+padding: 5px 0;
+font-size: 18px;
+font-family: 'Times New Roman', Times, serif;
+}
+#body-main{
+display: inline-flex;
+margin: 30px auto;
+}
